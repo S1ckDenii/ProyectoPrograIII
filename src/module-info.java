@@ -1,4 +1,4 @@
-module ClaseNumero2 {
+module ProyectoIVer5 {
 
 	requires javafx.controls;
 	requires java.desktop;

@@ -162,11 +162,6 @@ public class GUIServiceRequestController implements Initializable {
 
 		position = getPosicionDeEstudianteSeleccionado(id);
 
-		/*
-		 * System.out.println(StudentData.getStudentList());
-		 * System.out.println(getPosicionDeEstudianteSeleccionado(id));
-		 */
-
 		for (Student student : StudentData.getStudentList()) {
 
 			if (id.equals(student.getName())) {
